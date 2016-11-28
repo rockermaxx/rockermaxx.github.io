@@ -9,7 +9,7 @@
 </head>
 <body>
 <div id="layout-content">
-<h1>jemdoc &ndash; example page</h1>
+<h1>Rakesh R Menon</h1>
 <p><a href="https://jemnz.com/">Jacob Mattingley</a> (<a href="mailto:www@jemnz.com">www@jemnz.com</a>)</p>
 <p>If the first line of the file starts with <tt># jemdoc</tt>, special functions like <a href="menu.html">menus</a> will be used.</p>
 <h2>Example</h2>
@@ -66,7 +66,7 @@ Plain code block with no title.
 <p>You might need 2&ndash;3 different-sized dashes&#8201;&mdash;&#8201;they can be useful. Now we're done!</p>
 <div id="footer">
 <div id="footer-text">
-Page generated 2016-11-28 14:34:34 IST, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+Page generated 2016-11-28 14:49:23 IST, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
 </div>
 </div>
 </div>
