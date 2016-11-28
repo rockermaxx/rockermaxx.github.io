@@ -1,8 +1,15 @@
 
 # jemdoc: menu{MENU}{index.html}
 = Rakesh R Menon
-[https://jemnz.com/ Jacob Mattingley] ([www@jemnz.com])
 
+~~~
+{}{img_left}{IMG_0502.jpg}{1000px}{1000px}
+~~~
+
+I am a final year undergraduate B.Tech student in the [http://www.ee.iitm.ac.in/ Department of Electrical Engineering, IIT Madras]. 
+
+
+My research interests lie in the areas of Reinforcement Learning, Deep Learning and Machine Learning.
 If the first line of the file starts with +\# jemdoc+, special functions like [menu.html menus] will be used.
 
 == Example
