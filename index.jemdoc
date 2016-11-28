@@ -1,6 +1,6 @@
 
 # jemdoc: menu{MENU}{example.html}
-= jemdoc -- example page
+= Rakesh R Menon
 [https://jemnz.com/ Jacob Mattingley] ([www@jemnz.com])
 
 If the first line of the file starts with +\# jemdoc+, special functions like [menu.html menus] will be used.
