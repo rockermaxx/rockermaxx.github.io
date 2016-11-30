@@ -1,0 +1,26 @@
+# jemdoc: menu{MENU}{projects.html}, showsource
+
+= Research Projects
+
+== Current Projects
+
+=== Efficient Exploration using Ensemble of Value Functions
+Guide : [http://www.cse.iitm.ac.in/~ravi/ Prof. Balaraman Ravindran]
+
+
+== Past Projects
+
+=== Input Conditioned Language Models using Long Short Term Memory Networks
+Guide : [http://www.cse.iitm.ac.in/~sutanuc/ Prof. Sutanu Chakraborti]
+
+=== Language Expansion in Text-based Games
+Guide : [http://www.cse.iitm.ac.in/~ravi/ Prof. Balaraman Ravindran]
+
+=== A Deep Reinforcement Learning Approach to Influence Maximisation
+Guide : [http://www.cse.iitm.ac.in/~ravi/ Prof. Balaraman Ravindran]
+
+=== Semi-Supervised Clustering for organizing Large Image/Video Datasets
+Guide : [http://www.cse.iitm.ac.in/~sdas/ Prof. Sukhendu Das]
+
+== Github Account
+[https://github.com/rockermaxx rockermaxx]
