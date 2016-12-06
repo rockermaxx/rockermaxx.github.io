@@ -11,8 +11,6 @@ Guide : [http://www.cse.iitm.ac.in/~ravi/ Prof. Balaraman Ravindran]\n
 Report can be found [https://www.dropbox.com/s/8o03jt0mk4olaae/Efficient_Exploration_in_Deep_Reinforcement_Learning.pdf?dl=0 here]
 ~~~
 
-Ordinary exploration strategies like $\epsilon$-greedy have been found to be inefficient for large state spaces.
-
 == Past Projects
 
 === Input Conditioned Language Models using Long Short Term Memory Networks
@@ -20,9 +18,7 @@ Guide : [http://www.cse.iitm.ac.in/~sutanuc/ Prof. Sutanu Chakraborti]\n
 
 ~~~
 Report can be found [https://www.dropbox.com/s/ltetn0yx31kjfis/input-conditional-language.pdf?dl=0 here]
-~~~
-
-Natural Language Generation is a field within NLP 
+~~~ 
 
 === Language Expansion in Text-based Games
 Guide : [http://www.cse.iitm.ac.in/~ravi/ Prof. Balaraman Ravindran]\n
@@ -34,4 +30,6 @@ Guide : [http://www.cse.iitm.ac.in/~ravi/ Prof. Balaraman Ravindran]\n
 Guide : [http://www.cse.iitm.ac.in/~sdas/ Prof. Sukhendu Das]]n
 
 == Github Account
+~~~
 [https://github.com/rockermaxx rockermaxx]
+~~~
