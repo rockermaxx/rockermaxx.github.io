@@ -30,7 +30,7 @@ This project contains 5 variants of LSTM designs that we tried out:
 - *Word2Vec RILM-LSTM* Combines dense representations of Word2Vec with RILM-LSTM to address scalability and variability issues with the model.
 
 ~~~
-Report can be found [https://www.dropbox.com/s/ltetn0yx31kjfis/input-conditional-language.pdf?dl=0 here]
+Report can be found [https://www.dropbox.com/s/ltetn0yx31kjfis/input-conditional-language.pdf?dl=0 here]\n
 Code can be found [https://github.com/rockermaxx/nlg-rom-lstm here]
 ~~~ 
 
