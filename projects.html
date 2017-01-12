@@ -22,6 +22,7 @@
 <h2>Current Projects</h2>
 <h3>Efficient Exploration using Ensemble of Value Functions</h3>
 <p>Guide : <a href="http://www.cse.iitm.ac.in/~ravi/">Prof. Balaraman Ravindran</a><br /></p>
+<p>This is one of my most recent endeavours in Deep Reinforcement Learning.The idea was to switch between multiple estimates of the value function for both behaviour and learning. The behaviour policy would always be greedy for the sampled value function estimate. The cool thing is that adequate exploration can be ensured by the differences between the different estimates. It worked very well on quite a few RL problems. We were about to submit a paper to a workshop as well, when we found that Bootstrapped DQN, published a couple of months earlier, was essentially the same idea and had already been tested on much harder problems than what we had considered. We are currently developing variations of the Bootstrap architecture to resolve some other issues in RL.</p>
 <div class="infoblock">
 <div class="blockcontent">
 <p>Report can be found <a href="https://www.dropbox.com/s/8o03jt0mk4olaae/Efficient_Exploration_in_Deep_Reinforcement_Learning.pdf?dl=0">here</a></p>
@@ -29,16 +30,35 @@
 <h2>Past Projects</h2>
 <h3>Input Conditioned Language Models using Long Short Term Memory Networks</h3>
 <p>Guide : <a href="http://www.cse.iitm.ac.in/~sutanuc/">Prof. Sutanu Chakraborti</a><br /></p>
+<p>Our objective in this project is to find NN architectures that are capable of learning surface realisation, sentence planning and content determination end-to-end from raw data (images, parameters etc..) to complete paragraphs at once.</p>
+<p>LSTMs naturally seemed the best choice. We came up with a hybrid LSTM design that learnt an input-conditional language where the raw inputs are passed through another network before being fed to the LSTM.</p>
+<p>This project contains 5 variants of LSTM designs that we tried out:</p>
+<ul>
+<li><p><b>Running-Input LSTM (RI-LSTM)</b> Our first attempt at obtaining input conditioned language models. Takes the data as input at every stage.</p>
+</li>
+<li><p><b>Running-Input Language Model LSTM (RILM-LSTM)</b> Integrates LM-LSTM with Running-Input LSTM</p>
+</li>
+<li><p><b>Input-Initialized LM-LSTM (IILM-LSTM)</b> Improves upon RILM-LSTM by leveraging long-term memory aspect of LSTMs</p>
+</li>
+<li><p><b>Read Only Memory RILM-LSTM</b> Combines a read-only variant of memory-networks with RILM-LSTM to allow the network to copy-paste the inputs into it's output. In other words, in addition to the word that an LSTM outputs at each step, the ROM-LSTM can select an input semantic instead.</p>
+</li>
+<li><p><b>Word2Vec RILM-LSTM</b> Combines dense representations of Word2Vec with RILM-LSTM to address scalability and variability issues with the model.</p>
+</li>
+</ul>
 <div class="infoblock">
 <div class="blockcontent">
-<p>Report can be found <a href="https://www.dropbox.com/s/ltetn0yx31kjfis/input-conditional-language.pdf?dl=0">here</a></p>
+<p>Report can be found <a href="https://www.dropbox.com/s/ltetn0yx31kjfis/input-conditional-language.pdf?dl=0">here</a>
+Code can be found <a href="https://github.com/rockermaxx/nlg-rom-lstm">here</a></p>
 </div></div>
 <h3>Language Expansion in Text-based Games</h3>
 <p>Guide : <a href="http://www.cse.iitm.ac.in/~ravi/">Prof. Balaraman Ravindran</a><br /></p>
+<p>This project basically tries to apply Policy Distillation to text-based games. The idea was to explore the representations learnt by the distilled agent for the different vocabulary amongst the text-based games.</p>
 <h3>A Deep Reinforcement Learning Approach to Influence Maximisation</h3>
 <p>Guide : <a href="http://www.cse.iitm.ac.in/~ravi/">Prof. Balaraman Ravindran</a><br /></p>
+<p>We proposed an algorithm wherein we learn an optimal policy to influence the nodes as we observe the diffusion process in the graph. The objective was to minimise the number of time steps taken to influence the graph and minimise the number of nodes that we influence artificially using a deep learning architecture. The states for the problem were defined using a one-hot encoding and the possible set of actions, possible from a certain node, were also provided to the agent using the adjacency matrix. The two encodings were passed through autoencoders to provide low-dimensional representations and concatenated. The concatenated expression was then passed a neural network function approximator to provide the <img class="eq" src="eqs/3721737905106974354-130.png" alt="Q(s,a)" style="vertical-align: -5px" /> values. </p>
 <h3>Semi-Supervised Clustering for organizing Large Image/Video Datasets</h3>
-<p>Guide : <a href="http://www.cse.iitm.ac.in/~sdas/">Prof. Sukhendu Das</a>]n</p>
+<p>Guide : <a href="http://www.cse.iitm.ac.in/~sdas/">Prof. Sukhendu Das</a>]<br /></p>
+<p>This project dealt with image set classification using semi-supervised hierarchical clustering(SHC).The SHC is a recursive algorithm, loosely based on the normalised N-cut method which uses the second smallest eigenvector of normalised Laplacian matrix to divide the dataset. The semi-supervision implemented is just a stopping criterion for the division of clusters.</p>
 <h2>Github Account</h2>
 <div class="infoblock">
 <div class="blockcontent">
@@ -46,8 +66,7 @@
 </div></div>
 <div id="footer">
 <div id="footer-text">
-Page generated 2016-12-06 12:30:43 IST, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
-(<a href="projects.jemdoc">source</a>)
+Page generated 2017-01-12 23:12:53 IST, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
 </div>
 </div>
 </td>

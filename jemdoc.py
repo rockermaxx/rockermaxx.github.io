@@ -254,9 +254,6 @@ def standardconf():
   [lastupdated]
   Page generated |, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
 
-  [sourcelink]
-  (<a href="|">source</a>)
-
   """
   b = ''
   for l in a.splitlines(True):
@@ -1224,7 +1221,7 @@ def procfile(f):
           fwtitle = True
 
         elif b.startswith('showsource'):
-          showsourcelink = True
+          showsourcelink = False
 
         elif b.startswith('nodefaultcss'):
           nodefaultcss = True
