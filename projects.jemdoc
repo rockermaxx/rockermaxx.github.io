@@ -31,7 +31,6 @@ This project contains 5 variants of LSTM designs that we tried out:
 
 ~~~
 Report can be found [https://www.dropbox.com/s/ltetn0yx31kjfis/input-conditional-language.pdf?dl=0 here]\n
-Code can be found [https://github.com/rockermaxx/nlg-rom-lstm here]
 ~~~ 
 
 === Language Expansion in Text-based Games
